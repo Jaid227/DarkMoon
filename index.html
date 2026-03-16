@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cocina Premium</title>
+<link rel="stylesheet" href="estilos.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<header>
+<h1>🍽️ Cocina Premium</h1>
+<p>Calidad y estilo para tu hogar</p>
+</header>
+
+<nav class="menu">
+<button onclick="mostrarSeccion('baterias')">Arneses de cintura</button>
+<button onclick="mostrarSeccion('cubiertos')">Arneses de muslo</button>
+<button onclick="mostrarSeccion('platos')">Arneses de cuerpo completo</button>
+<button onclick="mostrarSeccion('cristaleria')">Ligas para medias</button>
+</nav>
+
+<main>
+
+<!-- BATERÍAS -->
+<section id="baterias" class="seccion">
+<h2>Arneses de cintura</h2>
+<div class="galeria">
+
+<div class="card">
+<div class="image-container" onclick="openFullscreen(this)">
+<img src="https://images.unsplash.com/photo-1586201375761-83865001e31b" alt="Batería Acero 12 pzas">
+</div>
+<h3>Batería Acero 12 pzas</h3>
+<p class="precio">$2,499 MXN</p>
+<p>Acero inoxidable con fondo difusor.</p>
+<button onclick="enviarWhatsApp('Batería Acero 12 pzas', '2,499 MXN')">
+<i class="fab fa-whatsapp"></i> Pedir por WhatsApp
+</button>
+</div>
+
+<div class="card">
+<div class="image-container" onclick="openFullscreen(this)">
+<img src="imagenes/parkour3.jpg" alt="Batería Antiadherente">
+</div>
+<h3>Batería Antiadherente</h3>
+<p class="precio">$1,899 MXN</p>
+<p>Recubrimiento antiadherente premium.</p>
+<button onclick="enviarWhatsApp('Batería Antiadherente', '1,899 MXN')">
+<i class="fab fa-whatsapp"></i> Pedir por WhatsApp
+</button>
+</div>
+
+</div>
+</section>
+
+<!-- CUBIERTOS -->
+<section id="cubiertos" class="seccion">
+<h2>Arneses de muslo</h2>
+<div class="galeria">
+
+<div class="card">
+<div class="image-container" onclick="openFullscreen(this)">
+<img src="https://images.unsplash.com/photo-1604908177522-040d4f5f7e45" alt="Juego Cubiertos 24 pzas">
+</div>
+<h3>Juego Cubiertos 24 pzas</h3>
+<p class="precio">$799 MXN</p>
+<p>Acero inoxidable elegante.</p>
+<button onclick="enviarWhatsApp('Juego Cubiertos 24 pzas', '799 MXN')">
+<i class="fab fa-whatsapp"></i> Pedir por WhatsApp
+</button>
+</div>
+
+<div class="card">
+<div class="image-container" onclick="openFullscreen(this)">
+<img src="https://images.unsplash.com/photo-1604908177522-040d4f5f7e45" alt="Juego Cubiertos 24 pzas">
+</div>
+<h3>Juego Cubiertos 24 pzas</h3>
+<p class="precio">$799 MXN</p>
+<p>Acero inoxidable elegante.</p>
+<button onclick="enviarWhatsApp('Juego Cubiertos 24 pzas', '799 MXN')">
+<i class="fab fa-whatsapp"></i> Pedir por WhatsApp
+</button>
+</div>
+
+</div>
+</section>
+
+<!-- PLATOS -->
+<section id="platos" class="seccion">
+<h2>Arneses de cuerpo completo</h2>
+<div class="galeria">
+
+<div class="card">
+<div class="image-container" onclick="openFullscreen(this)">
+<img src="https://images.unsplash.com/photo-1544025162-d76694265947" alt="Vajilla Cerámica 16 pzas">
+</div>
+<h3>Vajilla Cerámica 16 pzas</h3>
+<p class="precio">$1,299 MXN</p>
+<p>Diseño moderno y resistente.</p>
+<button onclick="enviarWhatsApp('Vajilla Cerámica 16 pzas', '1,299 MXN')">
+<i class="fab fa-whatsapp"></i> Pedir por WhatsApp
+</button>
+</div>
+
+<div class="card">
+<div class="image-container" onclick="openFullscreen(this)">
+<img src="https://images.unsplash.com/photo-1544025162-d76694265947" alt="Vajilla Cerámica 16 pzas">
+</div>
+<h3>Vajilla Cerámica 16 pzas</h3>
+<p class="precio">$1,299 MXN</p>
+<p>Diseño moderno y resistente.</p>
+<button onclick="enviarWhatsApp('Vajilla Cerámica 16 pzas', '1,299 MXN')">
+<i class="fab fa-whatsapp"></i> Pedir por WhatsApp
+</button>
+</div>
+
+</div>
+</section>
+
+<!-- CRISTALERÍA -->
+<section id="cristaleria" class="seccion">
+<h2>Ligas para medias</h2>
+<div class="galeria">
+
+<div class="card">
+<div class="image-container" onclick="openFullscreen(this)">
+<img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b" alt="Set Vasos Vidrio 6 pzas">
+</div>
+<h3>Set Vasos Vidrio 6 pzas</h3>
+<p class="precio">$499 MXN</p>
+<p>Vidrio templado resistente.</p>
+<button onclick="enviarWhatsApp('Set Vasos Vidrio 6 pzas', '499 MXN')">
+<i class="fab fa-whatsapp"></i> Pedir por WhatsApp
+</button>
+</div>
+
+<div class="card">
+<div class="image-container" onclick="openFullscreen(this)">
+<img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b" alt="Set Vasos Vidrio 6 pzas">
+</div>
+<h3>Set Vasos Vidrio 6 pzas</h3>
+<p class="precio">$499 MXN</p>
+<p>Vidrio templado resistente.</p>
+<button onclick="enviarWhatsApp('Set Vasos Vidrio 6 pzas', '499 MXN')">
+<i class="fab fa-whatsapp"></i> Pedir por WhatsApp
+</button>
+</div>
+
+</div>
+</section>
+
+</main>
+
+<!-- Modal para pantalla completa -->
+<div id="imageModal" class="modal" onclick="closeFullscreen()">
+<span class="close-modal">&times;</span>
+<img class="modal-content" id="fullscreenImage">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
